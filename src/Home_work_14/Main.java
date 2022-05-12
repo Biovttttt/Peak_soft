@@ -12,7 +12,7 @@ public class Main {
         Programmer programmer = new Programmer("Tilek","Programmer","C Technolgy");
         System.out.println(programmer.toString());
 
-        System.out.println("++++++++++++++++++++++++++++++ Задание конец++++++++++++++++++++++++++++++++");
+        System.out.println("++++++++++++++++++++++++++++++ Задание конец+++++ +++++++++++++++++++++++++++");
         System.out.println("++++++++++++++++++++++++++++++ Дополнительная работа под этой задачей. вызовы методы из класса PERSON через подклассов Dancer/Programmer/Singer, Также вызовы методов классов Dancer/Programmer/Singer ++++++++++++++++++++++++++++++++");
         dancer.dancing();  // метод из класса Dancer
         dancer.eat();
