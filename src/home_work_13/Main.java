@@ -1,6 +1,5 @@
-package Home_work_13;
+package home_work_13;
 
-import java.awt.*;
 import java.util.Arrays;
 
 public class Main {

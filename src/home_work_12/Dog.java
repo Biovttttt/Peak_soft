@@ -1,6 +1,6 @@
-package Home_work_12;
-// кошка
-public class Cat {
+package home_work_12;
+// Собака
+public class Dog {
     private String breed ;// порода
     private String name;
     private String color;
@@ -8,19 +8,20 @@ public class Cat {
 
 
     public String toString() {
-        return "Кошка {" +
+        return "Собака{" +
                 "Порода='" + breed + '\'' +
-                ", Название='" + name + '\'' +
-                ", Цвет='" + color + '\'' +
-                ", Возраст=" + age +
+                ", Имя='" + name + '\'' +
+                ", цвет='" + color + '\'' +
+                ", возраст=" + age +
                 '}';
     }
-    public void sets(String breed,String name,String color,int age){
-        this.breed=breed;
-        this.name=name;
-        this.color=color;
-        this.age=age;
 
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
 
     public String getName() {
@@ -29,15 +30,6 @@ public class Cat {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
     }
 
     public String getColor() {
