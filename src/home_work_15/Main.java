@@ -17,12 +17,25 @@ public class Main {
                 massiv_shark[0] = (Shark) a;
             }
 
+            if (a instanceof Turtle) {
+                ((Turtle) a).swim();
+                massiv_turtle[0] = (Turtle) a;
+            }
 
-
-
-
-    }
-
+            if (a instanceof Eagle) {
+                ((Eagle) a).fly();
+                massiv_eagle[0] = (Eagle) a;
+            }
+        }
+        for (Eagle a: massiv_eagle ) {
+            System.out.println(a);
+        }
+        for (Turtle b: massiv_turtle ) {
+            System.out.println(b);
+        }
+        for (Shark c: massiv_shark ) {
+            System.out.println(c);
+        }
 }
 
     }
