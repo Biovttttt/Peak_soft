@@ -1,4 +1,4 @@
-package Home_work_14;
+package home_work_14;
 
 public class Dancer extends Person {
     private  String groupName;

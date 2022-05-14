@@ -1,4 +1,4 @@
-package Home_work;
+package home_work;
 
 public class Triangle {
     double a,b,c;

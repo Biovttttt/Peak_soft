@@ -1,4 +1,4 @@
-package Home_work_13;
+package home_work_13;
 
 public class Class {
     private int number;

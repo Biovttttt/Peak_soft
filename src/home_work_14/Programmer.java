@@ -1,4 +1,4 @@
-package Home_work_14;
+package home_work_14;
 
 public class Programmer extends Person  {
     private String companyName;

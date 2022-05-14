@@ -1,4 +1,4 @@
-package Home_work_12;
+package home_work_12;
 // Попугай
 public class Parrot {
     private String breed ;// порода
