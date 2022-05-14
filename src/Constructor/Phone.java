@@ -1,4 +1,4 @@
-package constructor;
+package Constructor;
 
 public class Phone {
 private int price;

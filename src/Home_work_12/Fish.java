@@ -1,4 +1,4 @@
-package home_work_12;
+package Home_work_12;
 // Рыба
 public class Fish {
     private String clas ;// порода
