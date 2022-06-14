@@ -61,7 +61,7 @@ public class Calculator {
             }
         }
 
-        if (this.firs<0 && this.firs>10) throw new Exception("что -то пошло не так");
+
     }
 
     public double getTwo() {
